@@ -48,12 +48,18 @@ else {
 }
 
 function saludo(idioma) {
+
   // Devuelve un saludo en tres diferentes lenguajes:
   // Si "idioma" es "aleman", devuelve "Guten Tag!"
   // Si "idioma" es "mandarin", devuelve "Ni Hao!"
   // Si "idioma" es "ingles", devuelve "Hello!"
   // Si "idioma" no es ninguno de los anteiores o es `undefined` devuelve "Hola!"
   // Tu código:
+if (idioma === "aleman"){return "Guten Tag!"}
+else if (idioma === "mandarin"){return "Ni Hao!"}
+else if (idioma === "ingles"){return "Hello!"}
+else if (idioma === 'undefined'){return "Hola!"}
+else {return "Hola!"}
 
 }
 
@@ -65,6 +71,12 @@ function colors(color) {
   //En caso que el color recibido sea "orange", devuleve --> "This is orange"
   //Caso default: devuelve --> "Color not found"
   //Usar el statement Switch.
+if (color === "blue"){return "this is blue"}
+else if (color === "red"){return "this is red"}
+else if (color === "green"){return "this is green"}
+else if (color === "orange"){return "this is orange"}
+else {return "Color not found"}
+
 }
 
 function esDiezOCinco(numero) {
